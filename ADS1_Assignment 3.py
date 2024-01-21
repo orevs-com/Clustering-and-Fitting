@@ -129,7 +129,7 @@ def plot_kmeans_clusters(data, kmeans_model):
                               label='Cluster Centers',
                               markerfacecolor='red', markersize=10))
 
-    plt.legend(handles=handles, title="Clusters")
+    plt.legend(handles=handles)
     plt.show()
 
 
