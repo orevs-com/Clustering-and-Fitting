@@ -119,7 +119,7 @@ def plot_kmeans_clusters(data, kmeans_model):
     plt.xlabel('Forest area')
     plt.ylabel('CO2 emissions')
 
-    # Adding a legend
+    # Adding a legend to plot
     handles = [plt.Line2D([0], [0], marker='o', color='w', 
                           label=f'Cluster {i}',
                           markerfacecolor=scatter.cmap(scatter.norm(i)), 
